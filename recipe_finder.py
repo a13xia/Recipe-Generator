@@ -54,7 +54,7 @@ st.title("Recipe Generator")
 
 
 def get_recipes(ingredients, diet, meal_type):  # Add meal_type here
-    api_key = "f10473608231407ab7baca3f6f93d8a2"
+    api_key = "add your API key from Spoonacular here"
     url = "https://api.spoonacular.com/recipes/complexSearch"
     params = {
         "apiKey": api_key,
